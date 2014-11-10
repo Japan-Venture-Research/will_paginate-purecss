@@ -18,7 +18,7 @@ Thanks to [will_paginate-bootstrap](https://github.com/bootstrap-ruby/will_pagin
   1. Load the Pure CSS in your template.
   2. In your view, use the `renderer: PurecssPagination::Rails` option with the `will_paginate` helper, for example:
 
-```ruby
+```erb
 <%= will_paginate @collection, renderer: PurecssPagination::Rails %>
 ```
 
@@ -28,7 +28,7 @@ Thanks to [will_paginate-bootstrap](https://github.com/bootstrap-ruby/will_pagin
   2. `require "will_paginate-purecss"` in your Sinatra app.
   3. In your view, use the `renderer: PurecssPagination::Sinatra` option with the `will_paginate` helper, for example:
 
-```ruby
+```erb
 <%= will_paginate @collection, renderer: PurecssPagination::Sinatra %>
 ```
 
